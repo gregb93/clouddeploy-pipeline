@@ -10,7 +10,7 @@ resource "aws_ecs_service" "clouddeploy" {
   name             = "clouddeploy-service"
   cluster          = aws_ecs_cluster.clouddeploy.id
   task_definition  = "clouddeploy-test:4"
-  desired_count    = 1
+  desired_count    = 0
   launch_type      = "FARGATE"
   platform_version = "LATEST"
 
