@@ -9,3 +9,13 @@ __pycache__/
 *.tfstate.*
 *.tfvars
 *.tfvars.json
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+*.tfplan
