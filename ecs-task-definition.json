@@ -1,6 +1,6 @@
 {
   "family": "clouddeploy-test",
-  "executionRoleArn": "arm:aws:iam::234831149412:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::234831149412:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "requiresCompatibilities": [
     "FARGATE"
